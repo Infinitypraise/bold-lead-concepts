@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the Bold Lead Concepts brand and contact information', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  expect(screen.getByRole('heading', { name: /empowering grassroots entrepreneurs/i })).toBeInTheDocument();
+  expect(screen.getByText(/09013960304/i)).toBeInTheDocument();
+  expect(screen.getByText(/boldleadconcepts@gmail.com/i)).toBeInTheDocument();
 });
