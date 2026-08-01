@@ -5,8 +5,20 @@ function Footer() {
         <p className="eyebrow">Contact</p>
         <h2>Let’s build something lasting together.</h2>
         <div className="contact-card">
-          <p><strong>Phone:</strong> 09013960304</p>
-          <p><strong>Email:</strong> boldleadconcepts@gmail.com</p>
+          <p>
+            <strong>Phone{' (Whatsapp)'}:</strong>{' '}
+            <a
+              href="https://wa.me/2349013960304?text=Hello%2C%20My%20name%20is%20____%20and%20I%20would%20like%20to%20partner%20with%20Bold%20Lead%20Concept."
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              +234 901 396 0304
+            </a>
+          </p>
+          <p>
+            <strong>Email:</strong>{' '}
+            <a href="mailto:kolafunmiibironke@gmail.com">Boldleadconcepts@gmail.com</a>
+          </p>
           <p><strong>Location:</strong> Lagos Mainland, Nigeria</p>
         </div>
       </div>
