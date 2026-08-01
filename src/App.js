@@ -82,7 +82,7 @@ function App() {
           </div>
         </section>
 
-        <section className="section">
+        <section id="values" className="section">
           <div className="section__header">
             <p className="eyebrow">Our values</p>
             <h2>Accessibility, integrity, and empowerment guide everything we do.</h2>
@@ -91,6 +91,21 @@ function App() {
             <li><strong>Accessibility:</strong> We meet people where they are and make support practical and reachable.</li>
             <li><strong>Integrity:</strong> We provide transparent guidance and honest terms without hidden costs.</li>
             <li><strong>Empowerment:</strong> We build capability and confidence rather than dependency.</li>
+          </ul>
+        </section>
+
+        <section id="partners" className="section section--alt">
+          <div className="section__header">
+            <p className="eyebrow">Who we partner with</p>
+            <h2>We work with and welcome partnerships with:</h2>
+          </div>
+          <ul className="value-list">
+            <li>Petty traders and micro-entrepreneurs across Lagos and beyond seeking capital and business support</li>
+            <li>Small and growing businesses in need of structuring, planning, or advisory support</li>
+            <li>Government and regulatory bodies such as SMEDAN and related agencies, on entrepreneurship development and funding initiatives</li>
+            <li>Financial institutions and development finance partners interested in inclusive lending and grassroots economic development</li>
+            <li>Training and certification bodies (e.g. ILO, vocational and skills organisations) to expand access to quality, recognised training</li>
+            <li>NGOs and community development organisations working on financial inclusion, women's economic empowerment, and youth employment</li>
           </ul>
         </section>
 
