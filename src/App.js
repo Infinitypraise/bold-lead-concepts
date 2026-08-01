@@ -23,8 +23,8 @@ function App() {
       <Header />
       <header className="hero">
         <div className="hero__content">
-          <h2 className="eyebrow">Bold Lead Concepts</h2>
-          <h1>Empowering grassroots entrepreneurs to build thriving businesses.</h1>
+          <h1 className="eyebrow">Bold Lead Concepts</h1>
+          <h2>Empowering grassroots entrepreneurs to build thriving businesses.</h2>
           <p className="hero__text">
             We bridge ambition and opportunity through capital, consultancy, and practical training for traders and small business owners across Lagos and beyond.
           </p>
