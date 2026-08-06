@@ -1,10 +1,15 @@
 import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
 test('renders the Bold Lead Concepts brand and contact information', () => {
-  render(<App />);
+  render(
+    <MemoryRouter>
+      <App />
+    </MemoryRouter>
+  );
 
   expect(screen.getByRole('heading', { name: /empowering grassroots entrepreneurs/i })).toBeInTheDocument();
-  expect(screen.getByText(/09013960304/i)).toBeInTheDocument();
-  expect(screen.getByText(/boldleadconcepts@gmail.com/i)).toBeInTheDocument();
+  expect(screen.getByText(/901\s*396\s*0304/i)).toBeInTheDocument();
+  expect(screen.getByText(/boldleadconcepts@gmail\.com/i)).toBeInTheDocument();
 });

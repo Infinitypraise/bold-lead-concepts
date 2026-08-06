@@ -1,15 +1,17 @@
-import logo from './logo.png';
+import { Link } from 'react-router-dom';
+import logo from './logo.jpg';
 
 function Header() {
   return (
     <header className="site-header">
       <div className="header__brand">
         <img src={logo} alt="Bold Lead Concepts logo" className="header__logo" />
-      </div>
+      </div> 
       <nav className="header__nav">
+        <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
+        <Link to="/partners">Partners</Link>
         <a href="#contact">Contact</a>
-        <a href="#about">Learn more</a>
-        <a href="#values">Our values</a>
       </nav>
     </header>
   );
