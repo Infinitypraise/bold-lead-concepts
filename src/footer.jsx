@@ -22,6 +22,10 @@ function Footer() {
           <p><strong>Location:</strong> Lagos Mainland, Nigeria</p>
         </div>
       </div>
+      <div className="footer_bottom">
+        <p className="copyright">©2026 Bold Lead Concepts. All rights reserved.</p>
+        <p className="powered-by"><u>PoweredByParadox</u></p> 
+      </div>
     </footer>
   );
 }
