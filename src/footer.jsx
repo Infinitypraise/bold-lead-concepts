@@ -24,7 +24,7 @@ function Footer() {
       </div>
       <div className="footer_bottom">
         <p className="copyright">©2026 Bold Lead Concepts. All rights reserved.</p>
-        <p className="powered-by"><u>PoweredByParadox</u></p> 
+        <p className="powered-by"><u>PoweredByParadoxK</u></p> 
       </div>
     </footer>
   );
