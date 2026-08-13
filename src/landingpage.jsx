@@ -93,6 +93,17 @@ function LandingPage() {
           </p>
           <Link to="/partners" className="read-more">Read more</Link>
         </section>
+        <section id="collaboration" className="section">
+          <div className="section__header">
+            <p className="eyebrow">Open to collaboration</p>
+            <h2>We welcome partners who share our mission.</h2>
+          </div>
+          <p>
+            Bold Lead Concepts is always open to partnerships that expand our reach and deepen our impact. We frequently
+            collaborate with organisations that provide funding, technical support, or training capacity.
+          </p>
+          <Link to="/collaboration" className="read-more">Read more</Link>
+        </section>
       </main>
     </div>
   )

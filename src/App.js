@@ -9,6 +9,7 @@ import VisionMission from './visionmission';
 import Services from './services';
 import Values from './values';
 import Partners from './partners';
+import Collaboration from './collaboration';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -32,6 +33,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/values" element={<Values />} />
         <Route path="/partners" element={<Partners />} />
+        <Route path="/collaboration" element={<Collaboration />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />

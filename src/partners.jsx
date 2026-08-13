@@ -13,6 +13,8 @@ export default function Partners(){
 
       <h2>Typical partners</h2>
       <ul>
+        <li>Petty traders and micro-entrepreneurs across Lagos and beyond seeking capital and business support</li>
+        <li>Small and growing businesses in need of structuring, planning, or advisory support</li>
         <li>Government and regulatory bodies focused on SME development and informal sector support.</li>
         <li>Financial institutions and impact investors providing capital and loan guarantees.</li>
         <li>Training organisations and certification bodies for accredited skills delivery.</li>
